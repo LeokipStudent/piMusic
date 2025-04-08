@@ -1600,6 +1600,349 @@
 				)
 			)
 		)
+		(symbol "custom:XH-M180"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XH-M180_0_0"
+				(pin power_in line
+					(at 24.13 -26.67 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12_V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 -26.67 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 31.75 -27.94 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Input1_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 34.29 -27.94 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Input1_R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 39.37 -27.94 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Input2_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 41.91 -27.94 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Input2_R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 21.59 -26.67 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "REM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpL1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpL1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 48.26 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpL2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 45.72 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpL2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpR1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpR1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpR2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SpR2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XH-M180_0_1"
+				(rectangle
+					(start 8.89 -24.13)
+					(end 53.34 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XH-M180_1_1"
+				(text "XH-M180"
+					(at 28.956 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 81.28 107.95)
@@ -1658,6 +2001,16 @@
 			(type default)
 		)
 		(uuid "0cc3ed7b-cb99-4a5f-beb6-8f63fa8dba52")
+	)
+	(wire
+		(pts
+			(xy 146.05 54.61) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2d73ca-b501-4745-8550-cce58bd8bb15")
 	)
 	(wire
 		(pts
@@ -1731,6 +2084,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 91.44) (xy 217.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b448b7-3acd-402f-9927-10f8b613cc71")
+	)
+	(wire
+		(pts
 			(xy 64.77 107.95) (xy 78.74 107.95)
 		)
 		(stroke
@@ -1778,6 +2141,16 @@
 			(type default)
 		)
 		(uuid "48db880b-844f-4e3c-b951-e1ddba74ceb7")
+	)
+	(wire
+		(pts
+			(xy 208.28 93.98) (xy 219.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc74f9e-e6d1-43b5-ad05-864eaa49d069")
 	)
 	(wire
 		(pts
@@ -1851,6 +2224,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 93.98) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739fda42-aa50-4b4d-876c-fac23836f54f")
+	)
+	(wire
+		(pts
 			(xy 72.39 77.47) (xy 86.36 77.47)
 		)
 		(stroke
@@ -1888,6 +2271,16 @@
 			(type default)
 		)
 		(uuid "9c328dac-e473-4f1b-acfb-2fc8e7f31ce6")
+	)
+	(wire
+		(pts
+			(xy 146.05 57.15) (xy 217.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f16c686-4d52-48e7-af95-cc2e4514bc23")
 	)
 	(wire
 		(pts
@@ -1978,6 +2371,16 @@
 			(type default)
 		)
 		(uuid "cce5036a-6c26-4f45-8918-db8f1d6386b4")
+	)
+	(wire
+		(pts
+			(xy 217.17 57.15) (xy 217.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5e3147-d579-41f3-9a6d-8cbd2db241a2")
 	)
 	(wire
 		(pts
@@ -2098,6 +2501,124 @@
 			(type default)
 		)
 		(uuid "feed0785-c0c1-450c-bb75-d9bedaa4a46d")
+	)
+	(label "AUX"
+		(at 142.24 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b33d7929-9f4f-4d11-be82-2db407c8d4a8")
+	)
+	(symbol
+		(lib_id "custom:XH-M180")
+		(at 180.34 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b34c752-03e6-4a14-926f-daf46bf63c19")
+		(property "Reference" "U1"
+			(at 193.04 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 193.04 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "Input1_R"
+			(uuid "d7ad70bd-8181-4104-99fe-e35c114e96ef")
+		)
+		(pin "12_V"
+			(uuid "af79feec-081f-4049-ae7c-0c0556467fb5")
+		)
+		(pin "SpR2-"
+			(uuid "44a270f8-26a2-4cf8-94b3-ee068b56a78a")
+		)
+		(pin "Input1_L"
+			(uuid "8f470382-f156-42d2-8179-35a82521081c")
+		)
+		(pin "SpR2+"
+			(uuid "1b1a00e3-d1ed-43a5-bd01-39d2aaaaacca")
+		)
+		(pin "SpL1-"
+			(uuid "b340841a-b213-46a6-8706-82e4bedfa6df")
+		)
+		(pin "SpR1+"
+			(uuid "ec5e224e-8937-4799-9404-9007d7e607cc")
+		)
+		(pin "SpL1+"
+			(uuid "c93b1dca-1116-4538-81ef-280ab88bfea7")
+		)
+		(pin "GND"
+			(uuid "dd16380e-cff2-4500-b2ff-0efa1cf551fb")
+		)
+		(pin "REM"
+			(uuid "17a34ed1-131c-400d-a051-32e885e3faf4")
+		)
+		(pin "Input2_L"
+			(uuid "be368452-d0ed-41a9-93a6-26f898c27650")
+		)
+		(pin "Input2_R"
+			(uuid "75bcba61-7121-4a59-9292-e998a5ad77da")
+		)
+		(pin "SpL2-"
+			(uuid "9247172d-9f84-4e0e-bc70-d61de7e7007e")
+		)
+		(pin "SpR1-"
+			(uuid "e974ee90-ab18-4f45-ad5d-ddb0adc5e613")
+		)
+		(pin "SpL2+"
+			(uuid "abb99d16-c552-427e-8b29-d2f0ce17be2c")
+		)
+		(instances
+			(project ""
+				(path "/c7ac3b9a-171a-4f6d-a98e-41d7e79a8324"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_Dual")
